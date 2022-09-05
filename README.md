@@ -19,4 +19,14 @@ Description :-
 	* Which repo of GitHub my files to be push/send specifying the repo -- git remote add origin "Copy of repo link"
 	* Staging environment where I am pushing and fetching files/code -- git remote  -v 
     * Finally sending all files from local to github repo -- git push -u origin main
-    *  
+    * Restore the files for untracking from github to stage -- git restore --staged "file name" 
+                                                            -- git reset "file name"
+    * 
+
+    ## Branch and Merge
+    * finding the staging branch or active branch -- git branch
+    * create a new branch at the current commit -- git branch [branch name]
+    * Switching the branches -- git checkout [switching branch name] # After that what ever commit you made this will goes to switched branch
+    * merge the specified branch's history into the current one -- git merge [branch name] # after that you can push your code to merged branch
+    * list out commit history for currently active branch -- git log
+                                                          -- git log -p -3 # last three commit history
