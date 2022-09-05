@@ -21,9 +21,9 @@ Description :-
     * Finally sending all files from local to github repo -- git push -u origin main
     * Restore the files for untracking from github to stage -- git restore --staged "file name" 
                                                             -- git reset "file name"
-    * 
+    
 
-    ## Branch and Merge
+## Branch and Merge
     * finding the staging branch or active branch -- git branch
     * create a new branch at the current commit -- git branch [branch name]
     * Switching the branches -- git checkout [switching branch name] # After that what ever commit you made this will goes to switched branch
