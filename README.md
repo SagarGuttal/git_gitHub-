@@ -22,7 +22,8 @@ Description :-
     * Restore the files for untracking from github to stage -- git restore --staged "file name" 
                                                             -- git reset "file name"
 							    
-### If pushing to repo problem try this ----> git pull --rebase origin main then push ----> git push origin main
+### Note:-
+* If pushing to repo problem try this ----> git pull --rebase origin main then push ----> git push origin main
     
 
 ## Branch and Merge
