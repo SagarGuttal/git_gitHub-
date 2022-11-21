@@ -21,6 +21,8 @@ Description :-
     * Finally sending all files from local to github repo -- git push -u origin main
     * Restore the files for untracking from github to stage -- git restore --staged "file name" 
                                                             -- git reset "file name"
+							    
+### If pushing to repo problem try this ----> git pull --rebase origin main then push ----> git push origin main
     
 
 ## Branch and Merge
